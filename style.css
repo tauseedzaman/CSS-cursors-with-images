@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+}
+.bg-light{
+    background-color: rgba(153, 84, 84, 0.089);
+}
+.header > h1{
+    color: blue;
+    text-align: center;
+    padding-block: 30px;
+}
+.grid{
+    margin-inline: 5%;
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    grid-template-columns: repeat( auto-fit, minmax(150px, 250px) );
+}
+
+.tester{
+    /* cursor: url('images/tester_background.jpg'),auto; */
+    border: 3px dashed blue;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 20%;
+    font-size: xx-large;
+    height: 150px;
+    background-color: aquamarine;
+    box-shadow: 1px 1px 5px cyan;
+}
+.tester:hover{
+    background-color: darkcyan;
+    color: yellow;
+    border: 3px dotted yellow;
+    transition: .3s;
+}
+.img{
+    width: 50px;
+    height: 50px;
+}
